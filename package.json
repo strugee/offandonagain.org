@@ -1,0 +1,27 @@
+{
+  "name": "offandonagain.org",
+  "version": "1.0.0",
+  "description": "Returns random \"have you tried turning it off and on again?\" GIFs",
+  "main": "index.js",
+  "bin": {
+    "offandonagain-org": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strugee/offandonagain.org.git"
+  },
+  "author": "AJ Jordan <alex@strugee.net>",
+  "license": "AGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/offandonagain.org/issues"
+  },
+  "homepage": "https://github.com/strugee/offandonagain.org#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "yargs": "^8.0.2"
+  }
+}
