@@ -22,6 +22,7 @@
   "dependencies": {
     "compression": "^1.6.2",
     "express": "^4.15.3",
+    "serve-random": "^1.0.0",
     "yargs": "^8.0.2"
   }
 }
