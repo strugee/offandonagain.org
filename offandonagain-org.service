@@ -7,7 +7,6 @@ Type=simple
 ExecStart=/usr/bin/offandonagain-org
 Environment=NODE_ENV=production
 User=nobody
-Group=nobody
 
 [Install]
 WantedBy=multi-user.target
