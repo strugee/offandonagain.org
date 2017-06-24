@@ -1,0 +1,11 @@
+[Unit]
+Description=offandonagain.org daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/offandonagain-org
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
