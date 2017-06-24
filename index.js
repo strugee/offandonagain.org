@@ -27,10 +27,6 @@ var express = require('express'),
     serveRandom = require('serve-random'),
     yargs = require('yargs');
 
-var agpl_notice = ['Copyright (C) 2016 AJ Jordan <alex@strugee.net>.',
-                   'License AGPLv3+: GNU Affero GPL version 3 or later <http://gnu.org/licenses/agpl-3.0.html>.',
-                   'This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.'].join('\n');
-
 var argv = require('yargs')
 	    .usage('Usage: $0 [options]')
 	    .alias({'help': 'h', 'config': 'c', 'port': 'p', 'address': 'a'})
@@ -40,10 +36,7 @@ var argv = require('yargs')
 	    .env('OFFANDONAGAIN')
 	    .help()
 	    .version()
-	    .epilog(agpl_notice)
 	    .argv;
-
-console.log(agpl_notice);
 
 var app = express();
 
