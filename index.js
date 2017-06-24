@@ -25,7 +25,8 @@ License along with offandonagain.org. If not, see
 var express = require('express'),
     compression= require('compression'),
     serveRandom = require('serve-random'),
-    yargs = require('yargs');
+    yargs = require('yargs'),
+    resolve = require('path').resolve;
 
 var argv = require('yargs')
 	    .usage('Usage: $0 [options]')
@@ -42,7 +43,7 @@ var app = express();
 
 app.use(compression());
 
-app.use(serveRandom('imgs'));
+app.use(serveRandom(resolve(__dirname, 'imgs')));
 
 var server = app.listen(argv.port, argv.address, function() {
 	var host = server.address().address;
