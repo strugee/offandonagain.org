@@ -1,5 +1,7 @@
 # offandonagain.org
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/strugee/offandonagain.org.svg)](https://greenkeeper.io/)
+
 [![NSP Status](https://nodesecurity.io/orgs/strugee/projects/9d6b895f-312b-4295-a13b-54e1a9f475e2/badge)](https://nodesecurity.io/orgs/strugee/projects/9d6b895f-312b-4295-a13b-54e1a9f475e2)
 
 
