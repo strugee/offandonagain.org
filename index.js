@@ -30,7 +30,7 @@ var express = require('express'),
 
 var argv = require('yargs')
 	    .usage('Usage: $0 [options]')
-	    .alias({'h': 'help', 'c': 'config', 'p': 'port', 'a': 'address'})
+	    .alias({'h': 'help', 'c': 'config', 'p': 'port', 'a': 'address', 'v': 'version'})
 	    .describe({port: 'Port that the HTTP server will bind to', address: 'Address that the HTTP server will bind to'})
 	    .default({ config: '/etc/offandonagain.org.json', address: '0.0.0.0', port: 8000 })
 	    .config()
