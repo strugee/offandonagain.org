@@ -23,6 +23,6 @@
     "compression": "^1.6.2",
     "express": "^4.15.3",
     "serve-random": "^2.0.1",
-    "yargs": "^8.0.2"
+    "yargs": "^10.1.1"
   }
 }
