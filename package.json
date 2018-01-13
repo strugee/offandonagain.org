@@ -1,6 +1,6 @@
 {
   "name": "offandonagain.org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns random \"have you tried turning it off and on again?\" GIFs",
   "main": "index.js",
   "bin": {
