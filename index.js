@@ -4,21 +4,9 @@
 
 Copyright 2017 AJ Jordan <alex@strugee.net>.
 
-This file is part of offandonagain.org.
-
-offandonagain.org is free software: you can redistribute it and/or
-modify it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
-
-offandonagain.org is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public
-License along with offandonagain.org. If not, see
-<https://www.gnu.org/licenses/>.
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See the COPYING file for more details.
 
 */
 
