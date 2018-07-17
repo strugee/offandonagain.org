@@ -33,6 +33,7 @@ app.use(compression());
 
 app.use(function(req, res, next) {
 	res.setHeader('X-Source-Code', 'https://github.com/strugee/offandonagain.org');
+	res.setHeader('X-SPDX-License', 'WTFPL');
 	res.setHeader('X-Humans-Txt', '/humans.txt');
 	next();
 });
