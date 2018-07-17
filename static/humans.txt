@@ -1,0 +1,17 @@
+/* TEAM */
+
+	Code & ops: AJ Jordan
+	Contact: alex [at] strugee.net
+	pump.io: alex@pump.strugee.net
+	Twitter: @strugee2
+	From: Seattle, Washington, United States
+
+/* THANKS */
+
+The IT Crowd
+
+Everyone who has ever asked for tech help, and anyone who has ever responded with, "have you tried turning it off an on again?"
+
+/* ORIGIN */
+
+Conceived of and written during the week of Open Source Bridge 2017.
