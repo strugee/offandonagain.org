@@ -1,0 +1,24 @@
+{
+  "name": "offandonagain.org",
+  "description": "Returns random \"have you tried turning it off and on again?\" GIFs",
+  "repository": {
+    "url": "https://github.com/strugee/offandonagain.org",
+    "clone": "https://github.com/strugee/offandonagain.org.git",
+    "type": "git",
+    "license": "WTFPL"
+  },
+  "bugs": {
+    "list": "https://github.com/strugee/offandonagain.org/issues",
+    "report": "https://github.com/strugee/offandonagain.org/issues/new"
+  },
+  "urls": {
+    "prod": "https://offandonagain.org"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "Humor",
+    "Joke website",
+    "Daemon"
+  ]
+}
