@@ -2,7 +2,7 @@
 
 /*
 
-Copyright 2017 AJ Jordan <alex@strugee.net>.
+Copyright 2017, 2018 AJ Jordan <alex@strugee.net>.
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
@@ -30,6 +30,11 @@ var argv = require('yargs')
 var app = express();
 
 app.use(compression());
+
+app.use(function(req, res, next) {
+	res.setHeader('X-Source-Code', 'https://github.com/strugee/offandonagain.org');
+	next();
+});
 
 app.use(serveRandom(resolve(__dirname, 'imgs')));
 
