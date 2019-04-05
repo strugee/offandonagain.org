@@ -46,10 +46,12 @@ app.use(function(req, res, next) {
 });
 
 app.use(function(req, res, next) {
-	var mayTrack = dnt(req.header('DNT') || '', true);
+	var mayTrack = dnt(req.header('DNT') || '', true),
+	    fullUrl = (req.header('X-Forwarded-Protocol') || req.protocol) + '://' + req.header('Host') + req.originalUrl;
+
 	if (mayTrack) {
 		matomo.track({
-			url: req.url,
+			url: fullUrl,
 			action_name: staticFiles.includes(req.url.slice(1)) ? req.url.slice(1) : 'GIF',
 			ua: req.header('User-Agent'),
 			urlref: req.header('Referer'),
@@ -61,7 +63,7 @@ app.use(function(req, res, next) {
 	} else {
 		// Record only the visit and no other identifiable information
 		matomo.track({
-			url: req.url,
+			url: fullUrl,
 			action_name: staticFiles.includes(req.url.slice(1)) ? req.url.slice(1) : 'GIF',
 			cip: '0.0.0.0',
 			token_auth: argv.matomoToken
