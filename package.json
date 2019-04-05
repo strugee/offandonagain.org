@@ -22,7 +22,9 @@
   "homepage": "https://github.com/strugee/offandonagain.org#readme",
   "dependencies": {
     "compression": "^1.6.2",
+    "donottrack": "^1.1.2",
     "express": "^4.15.3",
+    "matomo-tracker": "^2.2.1",
     "serve-random": "^2.0.1",
     "yargs": "^10.1.1"
   }

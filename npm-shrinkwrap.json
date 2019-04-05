@@ -140,6 +140,11 @@
       "resolved": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz",
       "integrity": "sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA="
     },
+    "donottrack": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/donottrack/-/donottrack-1.1.2.tgz",
+      "integrity": "sha1-jvPjKInj0gmTEjb4AmYpIOgY82c="
+    },
     "ee-first": {
       "version": "1.1.1",
       "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
@@ -341,6 +346,11 @@
         "pseudomap": "^1.0.2",
         "yallist": "^2.1.2"
       }
+    },
+    "matomo-tracker": {
+      "version": "2.2.1",
+      "resolved": "https://registry.npmjs.org/matomo-tracker/-/matomo-tracker-2.2.1.tgz",
+      "integrity": "sha512-l81WwBbZX09WGhh4yMOmknO8vFJVWtI6hDFrowoqQIoINrKKn11RVfJYVpLHEdA/EUbXcqLsRRNCKeLAag7Q6w=="
     },
     "media-typer": {
       "version": "0.3.0",
