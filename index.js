@@ -55,7 +55,7 @@ app.use(function(req, res, next) {
 			urlref: req.header('Referer'),
 			lang: req.header('Accept-Language'),
 			// Heroku
-			cip: req.header('X-Forwarded-For').split(',')[0] || req.connection.remoteAddress,
+			cip: (req.header('X-Forwarded-For') || '').split(',')[0] || req.connection.remoteAddress,
 			token_auth: argv.matomoToken
 		});
 	} else {
