@@ -67,6 +67,7 @@ app.use(function(req, res, next) {
 			token_auth: argv.matomoToken
 		});
 	}
+	next();
 });
 
 app.use(express.static(resolve(__dirname, 'static')));
