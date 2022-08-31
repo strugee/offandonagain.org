@@ -27,5 +27,8 @@
     "matomo-tracker": "^2.2.1",
     "serve-random": "^2.0.1",
     "yargs": "^17.0.1"
+  },
+  "engine": {
+    "node": "18"
   }
 }
