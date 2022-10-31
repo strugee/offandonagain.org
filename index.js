@@ -17,6 +17,7 @@ var express = require('express'),
     MatomoTracker = require('matomo-tracker'),
     // Why are ES6 modules the worst
     dnt = require('donottrack').default,
+    forceCanonical = require('@ryanburnette/express-force-canonical'),
     resolve = require('path').resolve,
     fs = require('fs');
 
@@ -37,6 +38,14 @@ var matomo = new MatomoTracker(10, 'https://piwik.strugee.net/matomo.php'),
 var app = express();
 
 app.use(compression());
+
+debugger;
+if (app.get('env') === 'production') {
+	app.use(forceCanonical({
+		host: 'offandonagain.org',
+		statusCode: 301
+	}));
+}
 
 app.use(function(req, res, next) {
 	res.setHeader('X-Source-Code', 'https://github.com/strugee/offandonagain.org');
