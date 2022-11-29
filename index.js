@@ -39,7 +39,6 @@ var app = express();
 
 app.use(compression());
 
-debugger;
 if (app.get('env') === 'production') {
 	app.use(forceCanonical({
 		host: 'offandonagain.org',
