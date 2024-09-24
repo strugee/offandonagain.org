@@ -24,7 +24,7 @@
     "@ryanburnette/express-force-canonical": "^4.0.4",
     "compression": "^1.6.2",
     "donottrack": "^1.1.2",
-    "express": "^4.15.3",
+    "express": "^4.20.0",
     "matomo-tracker": "^2.2.1",
     "serve-random": "^2.0.1",
     "yargs": "^17.0.1"
