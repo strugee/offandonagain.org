@@ -1,16 +1,18 @@
-/* TEAM */
+/* AUTHOR */
 
 	Code & ops: AJ Jordan
 	Contact: alex [at] strugee.net
-	pump.io: alex@pump.strugee.net
-	Twitter: @strugee2
-	From: Seattle, Washington, United States
+	Mastodon: https://tech.lgbt/@strugee
+    GitHub (for now): https://github.com/strugee (see also https://github.com/strugee/offandonagain.org)
+	Location: New York, New York
 
 /* THANKS */
 
 The IT Crowd
 
 Everyone who has ever asked for tech help, and anyone who has ever responded with, "have you tried turning it off an on again?"
+
+Pradyun at PyCon US 2026, without whom this file would still be missing a repository link.
 
 /* ORIGIN */
 
