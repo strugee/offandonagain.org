@@ -50,6 +50,7 @@ app.use(function(req, res, next) {
 	res.setHeader('X-Source-Code', 'https://github.com/strugee/offandonagain.org');
 	res.setHeader('X-SPDX-License', 'WTFPL');
 	res.setHeader('X-Humans-Txt', '/humans.txt');
+	res.setHeader('X-Finish-Your-Browsing-Session', 'https://web.archive.org/web/20150704015602/http://www.wwwdotcom.com/');
 	next();
 });
 
